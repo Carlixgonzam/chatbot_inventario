@@ -1,0 +1,11 @@
+version: "2.0"
+rules:
+  - rule: Consultar inventario automáticamente
+    steps:
+      - intent: consultar_inventario
+      - action: action_consultar_inventario
+
+  - rule: Optimización de ruta
+    steps:
+      - intent: optimizar_ruta
+      - action: action_optimizar_ruta
