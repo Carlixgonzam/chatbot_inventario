@@ -1,0 +1,18 @@
+# Paquete principal para Rasa
+rasa==3.0.0  # Ajusta la versión según tus necesidades
+
+# Paquetes para trabajar con CSV y datos
+pandas==1.3.3
+
+# Paquetes para Machine Learning y predicción
+scikit-learn==0.24.2
+xgboost==1.4.2  # Opcional, si usas XGBoost para predicciones
+
+# Conexiones a APIs y manejo de requests HTTP
+requests==2.26.0
+
+# Paquete para operaciones en archivos de pickle (si se usa para modelos)
+joblib==1.0.1
+
+# Paquetes adicionales (opcional según necesidades específicas)
+numpy==1.21.2  # Requerido para scikit-learn y XGBoost
