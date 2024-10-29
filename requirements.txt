@@ -15,4 +15,4 @@ requests==2.26.0
 joblib==1.0.1
 
 # Paquetes adicionales (opcional según necesidades específicas)
-numpy==1.21.2  # Requerido para scikit-learn y XGBoost
+numpy>=1.19.2,<1.20.0  # Requerido para scikit-learn y XGBoost
