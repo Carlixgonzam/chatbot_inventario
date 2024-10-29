@@ -1,0 +1,11 @@
+version: "2.0"
+stories:
+  - story: consultar_inventario_story
+    steps:
+      - intent: consultar_inventario
+      - action: action_consultar_inventario
+
+  - story: optimizar_ruta_story
+    steps:
+      - intent: optimizar_ruta
+      - action: action_optimizar_ruta
