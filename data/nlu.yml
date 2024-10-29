@@ -1,0 +1,13 @@
+version: "2.0"
+nlu:
+  - intent: consultar_inventario
+    examples: |
+      - ¿Cuál es el inventario de [tomates]?
+      - Muéstrame el inventario de [lechugas]
+      - Consulta el inventario de [zanahorias]
+
+  - intent: optimizar_ruta
+    examples: |
+      - ¿Cuál es la mejor ruta de [Bogotá] a [Medellín]?
+      - Optimiza la ruta de [Cali] a [Cartagena]
+      - Dame la ruta más rápida entre [Bogotá] y [Cali]
